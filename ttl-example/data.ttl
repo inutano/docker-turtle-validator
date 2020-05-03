@@ -1,0 +1,358 @@
+@prefix : <http://schema.org/> .
+@prefix e: <https://www.ebi.ac.uk/biosamples/> .
+@prefix b: <http://identifiers.org/biosample/> .
+@prefix o: <http://purl.obolibrary.org/obo/> .
+@prefix d: <http://purl.org/dc/terms/> .
+
+b:SAMEA2388127 a :DataRecord;
+ :dateCreated "2014-11-01T08:19:58.796"^^:Date;
+ :dateModified "2018-05-16T21:01:09.354"^^:Date;
+ :identifier "biosample:SAMEA2388127";
+ :isPartOf [ a :Dataset; :identifier e:samples ];
+ :mainEntity [  a :Sample, o:OBI_0000747;
+  :name "SAMEA2388127";
+  :description "CUFCON05";
+  :identifier "biosample:SAMEA2388127";
+  d:identifier "SAMEA2388127";
+  :additionalProperty
+   [
+     a :PropertyValue;
+     :name "control";
+     :value "yes"
+   ],
+   [
+     a :PropertyValue;
+     :name "pd";
+     :value "22.047569"
+   ],
+   [
+     a :PropertyValue;
+     :name "\"PUBLIC\"";
+     :value "n"
+   ],
+   [
+     a :PropertyValue;
+     :name "menstruation_disturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point95";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point90";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point55";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point45";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "sample_id";
+     :value "1164907"
+   ],
+   [
+     a :PropertyValue;
+     :name "common_name";
+     :value "unclassified metagenome"
+   ],
+   [
+     a :PropertyValue;
+     :name "samp_size";
+     :value "0.1g"
+   ],
+   [
+     a :PropertyValue;
+     :name "weekssincestart";
+     :value "1"
+   ],
+   [
+     a :PropertyValue;
+     :name "idmenstruationdisturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point99";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "env_local_scale";
+     :value "ENVO:human-associated habitat"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point70";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "assigned_from_geo";
+     :value "n"
+   ],
+   [
+     a :PropertyValue;
+     :name "type_sample";
+     :value "control"
+   ],
+   [
+     a :PropertyValue;
+     :name "title";
+     :value "Flores Student microbiome project"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point50";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "altitude";
+     :value "0.0"
+   ],
+   [
+     a :PropertyValue;
+     :name "env_broad_scale";
+     :value "ENVO:urban biome"
+   ],
+   [
+     a :PropertyValue;
+     :name "observedotus";
+     :value "220.9"
+   ],
+   [
+     a :PropertyValue;
+     :name "primerplate";
+     :value "8"
+   ],
+   [
+     a :PropertyValue;
+     :name "antibiotic_disturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "idantibioticdisturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "tissue";
+     :value "forehead"
+   ],
+   [
+     a :PropertyValue;
+     :name "sickness_disturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "sample_name";
+     :value "CUFCON05"
+   ],
+   [
+     a :PropertyValue;
+     :name "taxon_id";
+     :value "408168"
+   ],
+   [
+     a :PropertyValue;
+     :name "anytimeseries";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point30";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "tonguetimeseries";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "age_unit";
+     :value "78"
+   ],
+   [
+     a :PropertyValue;
+     :name "sequencecountabove10000";
+     :value "43532"
+   ],
+   [
+     a :PropertyValue;
+     :name "elev";
+     :value "1624.1"
+   ],
+   [
+     a :PropertyValue;
+     :name "description";
+     :value "controlCUforehead"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point15";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point85";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "shannonevenness";
+     :value "2.089772249"
+   ],
+   [
+     a :PropertyValue;
+     :name "samplemenstruationdisturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "palmtimeseries";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point80";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "latitude";
+     :value "40.015"
+   ],
+   [
+     a :PropertyValue;
+     :name "guttimeseries";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "illumina_technology";
+     :value "HiSeq"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point10";
+     :value "TRUE"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point40";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "ambiguoustimepoint";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "host_subject_id";
+     :value "2150:controlCU"
+   ],
+   [
+     a :PropertyValue;
+     :name "sampleplate";
+     :value "31"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point05";
+     :value "TRUE"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point35";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "sampleantibioticdisturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point65";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "geo_loc_name";
+     :value "GAZ:United States of America"
+   ],
+   [
+     a :PropertyValue;
+     :name "university";
+     :value "CU"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point75";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "well";
+     :value "E12"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point60";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "longitude";
+     :value "-105.271"
+   ],
+   [
+     a :PropertyValue;
+     :name "foreheadtimeseries";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "personalidsicknessdisturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point20";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "mislabeledprobabove0point25";
+     :value "FALSE"
+   ],
+   [
+     a :PropertyValue;
+     :name "env_matter";
+     :value "ENVO:sebum"
+   ],
+   [
+     a :PropertyValue;
+     :name "samplesicknessdisturbance";
+     :value "No"
+   ],
+   [
+     a :PropertyValue;
+     :name "anonymized_name";
+     :value "CUFCON05"
+   ]
+ ].
